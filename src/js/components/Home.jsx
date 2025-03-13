@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./navbar/navbar";
+import Navbar from "./navbar/navbar"
 import Card from "./card/card";
 import Jumbotron from "./jumbotron/jumbotron";
 import NavInferior from "./navinferior/navInferior";
@@ -11,7 +11,7 @@ const Home = () => {
 				<Navbar />
 				<Jumbotron />
 			</div>
-			<div className=" container d-flex justify-content-center col-sm-12 ">
+			<div className=" container d-flex justify-content-center ">
 				<Card />
 				<Card />
 				<Card />
